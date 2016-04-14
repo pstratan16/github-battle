@@ -3,7 +3,9 @@ var React = require('react');
 var Main = React.createClass({
   render: function () {
     return (
-      <div>Hello from Main! {this.props.children} </div>
+      <div className ='main-container'>
+      {this.props.children} 
+      </div> 
     )
   }
 });
